@@ -1,0 +1,16 @@
+$HOME/.config/spicetify/Themes/text/color.ini|${WALLBASH_SCRIPTS}/spotify.sh
+
+[Wallbash]
+accent             = <wallbash_3xa8>
+accent-active      = <wallbash_3xa6>
+accent-inactive    = <wallbash_1xa5>
+banner             = <wallbash_3xa8>
+border-active      = <wallbash_3xa8>
+border-inactive    = <wallbash_2xa2>
+header             = <wallbash_pry2>
+highlight          = <wallbash_1xa1>
+main               = <wallbash_pry1>
+notification       = <wallbash_pry1>
+notification-error = <wallbash_pry1>
+subtext            = <wallbash_4xa8>
+text               = <wallbash_4xa9>
