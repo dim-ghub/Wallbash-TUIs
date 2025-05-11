@@ -1,0 +1,99 @@
+${XDG_CACHE_HOME}/hyde/wallbash/discord.css|${WALLBASH_SCRIPTS}/discord.sh
+@import url('https://raw.githubusercontent.com/refact0r/system24/refs/heads/main/theme/system24.theme.css');
+@import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userAreaSpotifyControl.css");
+
+body {
+    --font: '';
+    --code-font: '';
+    --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
+}
+
+:root {
+    --colors: on; /* off: discord default colors, on: midnight custom colors */
+
+    /* text colors */
+    --text-0: var(--bg-4); /* text on colored elements */
+    --text-1: #<wallbash_1xa9>; /* other normally white text */
+    --text-2: #<wallbash_1xa8>; /* headings and important text */
+    --text-3: #<wallbash_1xa7>; /* normal text */
+    --text-4: #<wallbash_1xa6>; /* icon buttons and channels */
+    --text-5: #<wallbash_1xa5>; /* muted channels/chats and timestamps */
+
+    /* background and dark colors */
+    --bg-1: #<wallbash_1xa1>; /* dark buttons when clicked */
+    --bg-2: #<wallbash_pry1>; /* dark buttons */
+    --bg-3: #<wallbash_pry1>; /* spacing, secondary elements */
+    --bg-4: #<wallbash_pry1>; /* main background color */
+    --hover: #<wallbash_2xa2>1a; /* channels and buttons when hovered */
+    --active: #<wallbash_2xa2>33; /* channels and buttons when clicked or selected */
+    --active-2: #<wallbash_2xa2>4d; /* extra state for transparent buttons */
+    --message-hover: var(--hover); /* messages when hovered */
+
+    /* accent colors */
+    --accent-1: var(--purple-1); /* links and other accent text */
+    --accent-2: var(--purple-2); /* small accent elements */
+    --accent-3: var(--purple-3); /* accent buttons */
+    --accent-4: var(--purple-4); /* accent buttons when hovered */
+    --accent-5: var(--purple-5); /* accent buttons when clicked */
+    --accent-new: var(--red-2); /* stuff that's normally red like mute/deafen buttons */
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent); /* background of messages that reply to you */
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
+
+    /* status indicator colors */
+    --online: var(--green-2); /* change to #40a258 for default */
+    --dnd: var(--red-2); /* change to #d83a41 for default */
+    --idle: var(--yellow-2); /* change to #cc954c for default */
+    --streaming: var(--purple-2); /* change to ##9147ff for default */
+    --offline: var(--text-4); /* change to #82838b for default offline color */
+
+    /* border colors */
+    --border-light: var(--hover); /* general light border color */
+    --border: var(--active); /* general normal border color */
+    --border-hover: var(--accent-2); /* border color of panels when hovered */
+    --button-border: #<wallbash_2xa2>1a; /* neutral border color of buttons */
+
+    /* base colors */
+    --red-1: #f78c8c;
+    --red-2: #ee7b7b;
+    --red-3: #e46969;
+    --red-4: #d95757;
+    --red-5: #cf4646;
+
+    --green-1: #86e2b5;
+    --green-2: #7acda3;
+    --green-3: #6eb991;
+    --green-4: #63a47e;
+    --green-5: #5b926e;
+
+    --blue-1: #8fbaff;
+    --blue-2: #7ba7f2;
+    --blue-3: #6794e0;
+    --blue-4: #5380cd;
+    --blue-5: #3f6cba;
+
+    --yellow-1: #f2d68f;
+    --yellow-2: #e6c47a;
+    --yellow-3: #d9b265;
+    --yellow-4: #cca050;
+    --yellow-5: #bf8e3b;
+
+    --purple-1: #<wallbash_1xa5>;
+    --purple-2: #<wallbash_1xa4>;
+    --purple-3: #<wallbash_1xa3>;
+    --purple-4: #<wallbash_1xa2>;
+    --purple-5: #<wallbash_1xa1>;
+}
+
+
+/* Any custom CSS below here */
+.visual-refresh .panels_c48ade:hover .wrapper_e131a9,
+.visual-refresh .panels_c48a9 .wrapper_e131a9:hover,
+#vc-spotify-player:hover,
+.visual-refresh .panels_c48ade:hover #vc-spotify-player,
+.visual-refresh .panels_c48a9 .wrapper_e131a9:hover #vc-spotify-player {
+  transition:
+    transform 0.15s ease 0.01s,
+    opacity 0.3s ease 0.01s;
+}
