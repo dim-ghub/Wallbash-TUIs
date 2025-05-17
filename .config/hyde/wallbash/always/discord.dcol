@@ -1,5 +1,5 @@
 ${XDG_CACHE_HOME}/hyde/wallbash/discord.css|${WALLBASH_SCRIPTS}/discord.sh
-@import url('https://raw.githubusercontent.com/refact0r/system24/refs/heads/main/theme/system24.theme.css');
+@import url('https://refact0r.github.io/system24/build/system24.css');
 @import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userAreaSpotifyControl.css");
 
 body {
