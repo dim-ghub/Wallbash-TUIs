@@ -6,6 +6,8 @@ body {
     --font: '';
     --code-font: '';
     --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
+    --divider-thickness: 2px; /* thickness of unread messages divider and highlighted message borders */
+    --border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
 }
 
 :root {
@@ -14,7 +16,7 @@ body {
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
     --text-1: #<wallbash_1xa9>; /* other normally white text */
-    --text-2: #<wallbash_1xa8>; /* headings and important text */
+    --text-2: #<wallbash_3xa8>; /* headings and important text */
     --text-3: #<wallbash_1xa7>; /* normal text */
     --text-4: #<wallbash_1xa6>; /* icon buttons and channels */
     --text-5: #<wallbash_1xa5>; /* muted channels/chats and timestamps */
@@ -24,9 +26,9 @@ body {
     --bg-2: #<wallbash_pry1>; /* dark buttons */
     --bg-3: #<wallbash_pry1>; /* spacing, secondary elements */
     --bg-4: #<wallbash_pry1>; /* main background color */
-    --hover: #<wallbash_2xa2>1a; /* channels and buttons when hovered */
-    --active: #<wallbash_2xa2>33; /* channels and buttons when clicked or selected */
-    --active-2: #<wallbash_2xa2>4d; /* extra state for transparent buttons */
+    --hover: #<wallbash_2xa2>; /* channels and buttons when hovered */
+    --active: #<wallbash_2xa2>; /* channels and buttons when clicked or selected */
+    --active-2: #<wallbash_2xa2>; /* extra state for transparent buttons */
     --message-hover: var(--hover); /* messages when hovered */
 
     /* accent colors */
@@ -52,7 +54,7 @@ body {
     --border-light: var(--hover); /* general light border color */
     --border: var(--active); /* general normal border color */
     --border-hover: var(--accent-2); /* border color of panels when hovered */
-    --button-border: #<wallbash_2xa2>1a; /* neutral border color of buttons */
+    --button-border: #<wallbash_2xa2>; /* neutral border color of buttons */
 
     /* base colors */
     --red-1: #f78c8c;
@@ -80,7 +82,7 @@ body {
     --yellow-5: #bf8e3b;
 
     --purple-1: #<wallbash_1xa5>;
-    --purple-2: #<wallbash_1xa4>;
+    --purple-2: #<wallbash_3xa8>;
     --purple-3: #<wallbash_1xa3>;
     --purple-4: #<wallbash_1xa2>;
     --purple-5: #<wallbash_1xa1>;
