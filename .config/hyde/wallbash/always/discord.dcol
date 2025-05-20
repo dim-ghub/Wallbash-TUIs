@@ -8,6 +8,7 @@ body {
     --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
     --divider-thickness: 2px; /* thickness of unread messages divider and highlighted message borders */
     --border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
+    --custom-chatbar: separated;
 }
 
 :root {
