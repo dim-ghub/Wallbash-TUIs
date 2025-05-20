@@ -1,5 +1,5 @@
 ${XDG_CACHE_HOME}/hyde/wallbash/discord.css|${WALLBASH_SCRIPTS}/discord.sh
-@import url('https://refact0r.github.io/system24/build/system24.css');
+@import url('https://raw.githubusercontent.com/refact0r/midnight-discord/refs/heads/master/themes/midnight.theme.css');
 @import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userAreaSpotifyControl.css");
 
 body {
@@ -26,7 +26,7 @@ body {
     --bg-2: #<wallbash_pry1>; /* dark buttons */
     --bg-3: #<wallbash_pry1>; /* spacing, secondary elements */
     --bg-4: #<wallbash_pry1>; /* main background color */
-    --hover: #<wallbash_2xa2>; /* channels and buttons when hovered */
+    --hover: #<wallbash_2xa2>1a; /* channels and buttons when hovered */
     --active: #<wallbash_2xa2>; /* channels and buttons when clicked or selected */
     --active-2: #<wallbash_2xa2>; /* extra state for transparent buttons */
     --message-hover: var(--hover); /* messages when hovered */
